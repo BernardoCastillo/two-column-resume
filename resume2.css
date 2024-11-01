@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #eee;
+    width: 55%; /*centers the page*/
+    padding: 50px; /*pushes the page down to make room for box shadow*/
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /*left container is smaller than the right container for left takes up 1 fraction of the area and right takes up 2 fractions*/
+    column-gap: 0px; /*removes the gap between columns for them to be next to each other*/
+    box-shadow: 10px 15px 50px rgba(159, 157, 157, 0.542); /*creates a shadow around the page*/
+}
+.left-container{
+    margin-left: 0px;
+    background-color: rgb(49, 54, 83);
+    color: white;
+    text-align: justify; 
+    padding: 75px 25px;
+    margin-right: 0px;
+    justify-items: center; /*centers the items*/
+}
+.faded{
+    font-style: italic;
+    color: #666;
+}
+.left-container > p, h3{
+    padding: 10px;
+    margin-left: 15px;
+}
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.right-container{
+    background-color: white;
+    padding: 100px;
+}
+h2{
+    font-size: 1.7em;
+    text-align: center;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.bold{
+    font-weight: bold;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+.right-container{
+    text-align: start;
+    padding: 20px 15px;
+}
+.right-container > .professional{
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+.right-container > p{
+    margin-left: 30px;
+}
+.work-experience > p{
+    padding: 5px;
+    margin-left: 20px;
+}
+.education{
+    margin-top: 20px;
+}
+.education > p{
+    padding: 3px;
+    margin-left: 20px;
+}
+.InnoWeb{
+    margin-top: 30px;
+}
