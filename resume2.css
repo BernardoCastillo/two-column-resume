@@ -7,7 +7,7 @@
 }
 body{
     background-color: #eee;
-    width: 55%; /*centers the page*/
+    width: 65%; /*centers the page*/
     padding: 50px; /*pushes the page down to make room for box shadow*/
 }
 .container{
